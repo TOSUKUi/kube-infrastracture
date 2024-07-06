@@ -22,9 +22,13 @@ spec:
       targetPort: 90
       protocol: UDP
     - name: minecraft-tcp
-      port: 25565
-      targetPort: 25565
+      port: 30101
+      targetPort: 30101
       protocol: TCP
+    - name: minecraft-udp
+      port: 30101
+      targetPort: 30101
+      protocol: UDP
   selector:
     app.kubernetes.io/name: ingress-nginx
     app.kubernetes.io/part-of: ingress-nginx

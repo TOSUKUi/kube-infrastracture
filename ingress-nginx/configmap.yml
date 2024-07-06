@@ -5,6 +5,7 @@ metadata:
   namespace: ingress-nginx
 data:
   90: "default/demo:90"
+  30101: "minecraft2/minecraft2:25565"
 ---
 apiVersion: v1
 kind: ConfigMap
@@ -13,3 +14,4 @@ metadata:
   namespace: ingress-nginx
 data:
   90: "default/demo:90"
+  30101: "minecraft2/minecraft2:25565"

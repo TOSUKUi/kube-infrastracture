@@ -1,0 +1,4 @@
+server.ingress.enabled: true
+application.namespaces: argocd
+server.insecure: "true"
+
